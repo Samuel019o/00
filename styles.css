@@ -6,7 +6,7 @@
  }
 
 body {
-    font-size: 1rem;
+    font-size: 1;
     font-family: 'Montserrat';
 }
 
@@ -16,7 +16,7 @@ header {
 
 
 section {
-    padding-bottom: 5rem;
+    padding-bottom: 5;
 }
 
 
@@ -31,10 +31,10 @@ section {
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
-    border-radius: 80px;
-    width: 100%;
-    height: 606px;
-    padding: 40px;
+    border-radius: 80;
+    width: 100;
+    height: 606;
+    padding: 40;
     margin: 0 auto;
 }
 
@@ -42,8 +42,8 @@ section {
 .img-inicio {
     position: absolute;
     right: 0;
-    top: 18rem;
-    width: 45rem;
+    top: 18;
+    width: 45;
     height: auto;
 }
 
@@ -52,33 +52,33 @@ section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1rem;
+    gap: 1;
 }
 
 
 .botao-inicio {
-    background-color: var(--laranja-claro);
-    border-radius: 30px;
+    background-color: (--laranja-claro);
+    border-radius: 30;
     border: none;
-    width: 14em;
-    height: 3em;
+    width: 14;
+    height: 3;
     align-content: center;
 
 }
 
 .display-4 {
-    text-shadow: -5px 5px var(--laranja-claro);
+    text-shadow: -5 5 (--laranja-claro);
 }
 
 
 #tropicalia {
     position: relative;
-    padding-top: 5rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    padding-top: 5;
+    margin-top: 3;
+    margin-bottom: 3;
     background: url('img/flor.png') top right no-repeat,
         url('img/flor-esquerda.png') bottom left no-repeat;
-    background-size: 180px 180px;
+    background-size: 180 180;
     /* Ajuste o tamanho conforme necessário */
 }
 
@@ -94,9 +94,9 @@ section {
 
 h2 {
     font-family: 'Lemon', serif;
-    font-size: 2.5em;
+    font-size: 2.5;
     font-style: normal;
-    color: var(--laranja-claro);
+    color: (--laranja-claro);
 }
 
 #galeria {
@@ -106,24 +106,24 @@ h2 {
 
 .fundo-galeria {
     background: url('img/flor-bottom-direita.png') bottom right no-repeat;
-    background-size: 180px 180px;
+    background-size: 180 180;
 }
 
 #contato {
     background-image: url('img/4965007.jpg');
     background-size: cover;
-    padding: 4rem 0;
+    padding: 4 0;
     /* Espaçamento interno para a seção de contato */
 
 }
 
 .formulario {
     background-color: #ffffff;
-    padding: 2rem;
+    padding: 2;
     /* Espaçamento interno dentro do formulário */
-    border-radius: 10px;
+    border-radius: 10;
     /* Borda arredondada para o formulário */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10(0, 0, 0, 0.1);
     /* Sombra suave para destacar o formulário */
     font-weight: bold;
 }
@@ -139,23 +139,23 @@ h2 {
 }
 .menu-acessibilidade{
     position: fixed;
-    top:2rem;
-    right:20px;
+    top:2;
+    right:20;
     z-index: 1000;
 }
 .rotacao-botao{
-    transform: rotate(-90deg);
+    transform: (-90);
     transform-origin: right center;
 }
 
 .opcoes-acessibilidade{
-    margin-top:10px;
+    margin-top:10;
     display: flex;
     flex-direction: column;
 }
 
 .opcoes-acessibilidade button{
-    margin-bottom: 5px;
+    margin-bottom: 5;
 }
 .apresenta-lista{
     display: none;
